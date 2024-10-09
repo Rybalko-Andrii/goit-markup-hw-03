@@ -176,6 +176,10 @@ img {
   background-color: #404bbf;
 }
 
+.hero {
+  padding: 120px;
+}
+
 .hero-title {
   position: absolute;
   width: 1px;
@@ -189,12 +193,22 @@ img {
   overflow: hidden;
 }
 
+.hero-list {
+  display: flex;
+  gap: 24px;
+}
+
+.hero-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .hero-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .hero-item-title-descr {
