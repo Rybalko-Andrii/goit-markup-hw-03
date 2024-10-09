@@ -151,9 +151,9 @@ img {
   color: #fff;
   margin-bottom: 48px;
   max-width: 496px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wrapper-button {
@@ -170,6 +170,7 @@ img {
   border-radius: 4px;
   margin-right: auto;
   margin-left: auto;
+  display: block;
 }
 
 .wrapper-button:hover {
