@@ -10,6 +10,33 @@ a {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo-top {
@@ -29,6 +56,13 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  padding-right: 332px;
 }
 
 .nav-link-page {
@@ -61,6 +95,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link:hover {
@@ -73,6 +109,12 @@ ul {
 
 .contacts {
   font-style: normal;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0 24px 0;
 }
 
 .contacts-link {
