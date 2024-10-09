@@ -323,6 +323,7 @@ img {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-descr {
@@ -341,6 +342,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .studio-footer {
@@ -350,4 +353,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.footer-descr {
+  max-width: 264px;
 }
