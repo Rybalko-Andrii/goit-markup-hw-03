@@ -39,10 +39,6 @@ img {
   align-items: center;
 }
 
-.logo-header {
-  margin-right: 76px;
-}
-
 .logo-top {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -51,6 +47,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .studio {
