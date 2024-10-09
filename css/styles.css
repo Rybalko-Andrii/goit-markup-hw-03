@@ -221,6 +221,7 @@ img {
 
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -231,10 +232,22 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-group {
+  padding: 32px 0;
 }
 
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-title {
@@ -244,6 +257,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-item-descr {
@@ -253,6 +268,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 
 .portfolio-title {
