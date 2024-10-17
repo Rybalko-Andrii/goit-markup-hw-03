@@ -14,7 +14,13 @@ ul {
   padding-left: 0;
 }
 
-h1 h2 h3 h4 h5 h6 p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -36,9 +42,11 @@ img {
 .header-container {
   display: flex;
 }
+
 .nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .logo-top {
@@ -64,7 +72,6 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding-right: 332px;
 }
 
 .nav-link-page {
